@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: auto;
+
+}
+.addList{
+    background-color: #4696E5;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 30px;
+}
+.todo-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+
+}
+.todo-header h1{
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.todo-header span{
+    
+    color: #fff;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.todo-header input{
+    width: 100%;
+    padding: 8px;
+}
+.todo-header button{ 
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+    background-color: #4696E5;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.todo-header button:hover{
+    background-color: #fff;
+    color: #4696E5;
+}
+.title-list{
+    color: #838383;
+    font-size: 20px;
+    text-align: center
+}
+.title-list hr{
+    width:10%;
+}
+ul li{
+    list-style: none;
+    display: flex
+}
+.toggle{
+    text-decoration: line-through
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px
+}
+.style{
+    margin: 20px;
+}
+.sty-btn{
+    
+    background: none;
+    color: #838383;
+    padding: 10px;
+    /* border: none; */
+    border: outl;
+    outline: #4696E5;
+}
+.sty-p{
+    
+    padding: 10px;
+    color: #838383;
+    font-size: 20px;
+}
